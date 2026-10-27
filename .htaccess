@@ -6,7 +6,7 @@
 RewriteEngine On
 RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} !^www\. [NC]
-RewriteRule ^(.*)$ https://www.grilvex.ma/$1 [R=301,L]
+RewriteRule ^(.*)$ https://www.zwawri-incorporation.com/$1 [R=301,L]
 
 # --- B) Sur l'ANCIEN site Zwawri : redirection 301 vers GRILVEX ---
 # Remplacez "ancien-domaine-zwawri.ma" par le vrai domaine de Zwawri.
